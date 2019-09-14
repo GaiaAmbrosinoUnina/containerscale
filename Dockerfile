@@ -6,5 +6,4 @@ RUN apt-get update -q
 #RUN mkdir /cartellaprova
 #RUN echo "prova" > /tmp/prova.txt
 RUN apt-get install time -y
-RUN   echo "Some line to add to a file" >> /tmp/sysctl.conf
 CMD ["/bin/bash"]
